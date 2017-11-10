@@ -14,3 +14,5 @@ Suggests:
     testthat
 URL: https://github.com/hadley/hadcol
 BugReports: https://github.com/hadley/hadcol/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1.9000

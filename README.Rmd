@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
+# hadcol
+
+The goal of hadcol is to combine columns.
+
+## Installation
+
+You can install hadcol from github with:
+
+
+``` r
+# install.packages("devtools")
+devtools::install_github("hadley/hadcol")
+```
+
+## Example
+
+```{r}
+library(hadcol)
+
+df1 <- data.frame(a = 3, b = 4, c = 5)
+df2 <- data.frame(X = 1, Y = 2)
+
+add_cols(df1, df2, where = 2)
+```

@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param x,y Two data frames to combine
+#' @param where Position of y relative to x
+#'
+#' @return
+#' @export
+#'
+#' @examples
 add_cols <- function(x, y, where = 1) {
   check_where(where)
 

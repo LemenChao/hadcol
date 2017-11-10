@@ -5,6 +5,8 @@ hadcol
 
 The goal of hadcol is to combine columns.
 
+DISCLAIMER THIS IS LIVE Code from a meetup. DO NOT USE.
+
 Installation
 ------------
 
